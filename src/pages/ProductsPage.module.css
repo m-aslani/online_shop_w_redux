@@ -1,0 +1,27 @@
+.main{
+  max-width: 1200px;
+  margin: auto
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .container{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .products{
+    justify-content: center;
+  }
+}

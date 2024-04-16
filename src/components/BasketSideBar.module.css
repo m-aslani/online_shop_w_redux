@@ -1,0 +1,36 @@
+.sideBar{
+    width: 300px;
+    margin-right: 30px;
+    border: 2px dashed #fab95b;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.sideBar div{
+    display: flex;
+    align-items: center;
+    color: #fab95b;
+    margin-bottom: 15px;
+}
+
+.sideBar div svg{
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+.sideBar div span{
+    color: #516184;
+    margin-left: 10px;
+}
+
+.sideBar button{
+    width: 100%;
+    margin-top: 40px;
+    background-color: #fab95b;
+    color: #f8f8f8;
+    border: none;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

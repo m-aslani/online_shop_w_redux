@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: auto
+}
+
+.container img {
+  width: 300px;
+  min-height: 380px;
+  padding: 15px 25px;
+  background-color: #f2d5ab;
+  border: 2px dashed #fab95b;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.information {
+  width: 850px;
+  min-height: 380px;
+  border: 2px dashed #fab95b;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.information h3{
+    color: #fab95b;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.description{
+    color: #1a3263;
+    width: 500px;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+
+}
+
+.category{
+    margin-bottom: 10px;
+    color: #516184;
+}
+
+.price{
+    color: #516184;
+}
+
+.category svg, .information span svg{
+color: #fab95b;
+margin-right: 10px;
+}
+
+.information div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information a {
+  display: flex;
+  align-items: center;
+  background-color: #fab95b;
+  padding: 5px 10px;
+  color: #f8f8f8;
+  border-radius: 12px;
+}
+
+.information a svg {
+  margin-right: 10px;
+}

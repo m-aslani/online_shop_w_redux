@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: auto;
+  /* max-width: 1200px; */
+  min-height: 100vh;
+  padding: 0;
+  background-image: linear-gradient(45deg, rgba(230,233,240,1) 0%, rgba(255,255,214,0.2) 76%, rgba(238,241,245,1) 100%);
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  /* color: #112348; */
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
